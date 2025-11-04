@@ -1,0 +1,51 @@
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  shops     Shop[]
+  createdAt DateTime @default(now())
+}
+
+model Shop {
+  id        String    @id @default(cuid())
+  ownerId   String
+  owner     User      @relation(fields: [ownerId], references: [id])
+  name      String
+  slug      String    @unique
+  whatsapp  String?
+  logoUrl   String?
+  products  Product[]
+  createdAt DateTime  @default(now())
+}
+
+model Product {
+  id           String   @id @default(cuid())
+  shopId       String
+  shop         Shop     @relation(fields: [shopId], references: [id])
+  category     String   // iPhone, iPad, Watch, Mac
+  name         String   // Ex.: iPhone 15 Pro
+  model        String   // Ex.: A3102 (opcional) ou repetição do name
+  storage      String?  // 128GB, 256GB...
+  color        String?  // "Black", "Starlight", etc.
+  condition    String?  // Lacrado, Seminovo, Vitrine
+  priceCash    Int?     // centavos
+  priceCard    Int?     // centavos (opcional)
+  deliveryTime String?  // "Pronta entrega", "Até 10 dias"
+  notes        String?  // observações livres
+  paymentLink  String?  // URL externa (opcional)
+  imageUrl     String?  // URL local/externa
+  isActive     Boolean  @default(true)
+  clicks       Int      @default(0)
+  updatedAt    DateTime @updatedAt
+  createdAt    DateTime @default(now())
+}
