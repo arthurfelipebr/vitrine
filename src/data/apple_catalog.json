@@ -1,0 +1,370 @@
+[
+  {
+    "category": "iPhone",
+    "year": 2020,
+    "items": [
+      {
+        "name": "iPhone 12",
+        "storages": ["64GB", "128GB", "256GB"],
+        "colors": ["Preto", "Branco", "Azul", "Verde", "PRODUCT(RED)", "Roxo"]
+      },
+      {
+        "name": "iPhone 12 mini",
+        "storages": ["64GB", "128GB", "256GB"],
+        "colors": ["Preto", "Branco", "Azul", "Verde", "PRODUCT(RED)", "Roxo"]
+      },
+      {
+        "name": "iPhone 12 Pro",
+        "storages": ["128GB", "256GB", "512GB"],
+        "colors": ["Grafite", "Prateado", "Dourado", "Azul Pacífico"]
+      },
+      {
+        "name": "iPhone 12 Pro Max",
+        "storages": ["128GB", "256GB", "512GB"],
+        "colors": ["Grafite", "Prateado", "Dourado", "Azul Pacífico"]
+      }
+    ]
+  },
+  {
+    "category": "iPhone",
+    "year": 2021,
+    "items": [
+      {
+        "name": "iPhone 13",
+        "storages": ["128GB", "256GB", "512GB"],
+        "colors": ["Meia-noite", "Estelar", "Rosa", "Azul", "PRODUCT(RED)", "Verde"]
+      },
+      {
+        "name": "iPhone 13 mini",
+        "storages": ["128GB", "256GB", "512GB"],
+        "colors": ["Meia-noite", "Estelar", "Rosa", "Azul", "PRODUCT(RED)", "Verde"]
+      },
+      {
+        "name": "iPhone 13 Pro",
+        "storages": ["128GB", "256GB", "512GB", "1TB"],
+        "colors": ["Grafite", "Prateado", "Dourado", "Azul Sierra", "Verde Alpino"]
+      },
+      {
+        "name": "iPhone 13 Pro Max",
+        "storages": ["128GB", "256GB", "512GB", "1TB"],
+        "colors": ["Grafite", "Prateado", "Dourado", "Azul Sierra", "Verde Alpino"]
+      }
+    ]
+  },
+  {
+    "category": "iPhone",
+    "year": 2022,
+    "items": [
+      {
+        "name": "iPhone 14",
+        "storages": ["128GB", "256GB", "512GB"],
+        "colors": ["Meia-noite", "Estelar", "Roxo", "Azul", "PRODUCT(RED)", "Amarelo"]
+      },
+      {
+        "name": "iPhone 14 Plus",
+        "storages": ["128GB", "256GB", "512GB"],
+        "colors": ["Meia-noite", "Estelar", "Roxo", "Azul", "PRODUCT(RED)", "Amarelo"]
+      },
+      {
+        "name": "iPhone 14 Pro",
+        "storages": ["128GB", "256GB", "512GB", "1TB"],
+        "colors": ["Roxo Profundo", "Prateado", "Dourado", "Preto Espacial"]
+      },
+      {
+        "name": "iPhone 14 Pro Max",
+        "storages": ["128GB", "256GB", "512GB", "1TB"],
+        "colors": ["Roxo Profundo", "Prateado", "Dourado", "Preto Espacial"]
+      }
+    ]
+  },
+  {
+    "category": "iPhone",
+    "year": 2023,
+    "items": [
+      {
+        "name": "iPhone 15",
+        "storages": ["128GB", "256GB", "512GB"],
+        "colors": ["Preto", "Azul", "Verde", "Amarelo", "Rosa"]
+      },
+      {
+        "name": "iPhone 15 Plus",
+        "storages": ["128GB", "256GB", "512GB"],
+        "colors": ["Preto", "Azul", "Verde", "Amarelo", "Rosa"]
+      },
+      {
+        "name": "iPhone 15 Pro",
+        "storages": ["128GB", "256GB", "512GB", "1TB"],
+        "colors": ["Titânio Natural", "Titânio Azul", "Titânio Branco", "Titânio Preto"]
+      },
+      {
+        "name": "iPhone 15 Pro Max",
+        "storages": ["256GB", "512GB", "1TB"],
+        "colors": ["Titânio Natural", "Titânio Azul", "Titânio Branco", "Titânio Preto"]
+      }
+    ]
+  },
+  {
+    "category": "iPhone",
+    "year": 2024,
+    "items": [
+      {
+        "name": "iPhone 16",
+        "storages": ["128GB", "256GB", "512GB"],
+        "colors": ["Preto", "Branco", "Rosa", "Verde-azulado", "Ultramarine"]
+      },
+      {
+        "name": "iPhone 16 Plus",
+        "storages": ["128GB", "256GB", "512GB"],
+        "colors": ["Preto", "Branco", "Rosa", "Verde-azulado", "Ultramarine"]
+      },
+      {
+        "name": "iPhone 16 Pro",
+        "storages": ["128GB", "256GB", "512GB", "1TB"],
+        "colors": ["Titânio Natural", "Titânio Deserto", "Titânio Branco", "Titânio Preto"]
+      },
+      {
+        "name": "iPhone 16 Pro Max",
+        "storages": ["256GB", "512GB", "1TB"],
+        "colors": ["Titânio Natural", "Titânio Deserto", "Titânio Branco", "Titânio Preto"]
+      }
+    ]
+  },
+  {
+    "category": "iPad",
+    "year": 2020,
+    "items": [
+      {
+        "name": "iPad Air (4ª geração)",
+        "storages": ["64GB", "256GB"],
+        "colors": ["Prata", "Cinza Espacial", "Ouro Rosa", "Verde", "Azul Céu"]
+      },
+      {
+        "name": "iPad Pro 11\" (4ª geração - M2)",
+        "storages": ["128GB", "256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Prata", "Cinza Espacial"]
+      },
+      {
+        "name": "iPad Pro 12.9\" (4ª geração - M2)",
+        "storages": ["128GB", "256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Prata", "Cinza Espacial"]
+      }
+    ]
+  },
+  {
+    "category": "iPad",
+    "year": 2022,
+    "items": [
+      {
+        "name": "iPad Air (5ª geração - M1)",
+        "storages": ["64GB", "256GB"],
+        "colors": ["Azul", "Rosa", "Roxo", "Estelar", "Cinza Espacial"]
+      },
+      {
+        "name": "iPad (10ª geração)",
+        "storages": ["64GB", "256GB"],
+        "colors": ["Azul", "Rosa", "Amarelo", "Prata"]
+      }
+    ]
+  },
+  {
+    "category": "iPad",
+    "year": 2024,
+    "items": [
+      {
+        "name": "iPad Air 11\" (M2)",
+        "storages": ["128GB", "256GB", "512GB", "1TB"],
+        "colors": ["Azul", "Roxo", "Estelar", "Cinza Espacial"]
+      },
+      {
+        "name": "iPad Air 13\" (M2)",
+        "storages": ["128GB", "256GB", "512GB", "1TB"],
+        "colors": ["Azul", "Roxo", "Estelar", "Cinza Espacial"]
+      },
+      {
+        "name": "iPad Pro 11\" (M4)",
+        "storages": ["256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Prata", "Cinza Espacial"]
+      },
+      {
+        "name": "iPad Pro 13\" (M4)",
+        "storages": ["256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Prata", "Cinza Espacial"]
+      }
+    ]
+  },
+  {
+    "category": "Watch",
+    "year": 2020,
+    "items": [
+      {
+        "name": "Apple Watch Series 6",
+        "storages": ["GPS 40mm", "GPS 44mm", "GPS + Cellular 40mm", "GPS + Cellular 44mm"],
+        "colors": ["Alumínio Prateado", "Alumínio Cinza Espacial", "Alumínio Dourado", "Alumínio Azul", "Alumínio PRODUCT(RED)", "Aço Inoxidável", "Titânio"]
+      }
+    ]
+  },
+  {
+    "category": "Watch",
+    "year": 2021,
+    "items": [
+      {
+        "name": "Apple Watch Series 7",
+        "storages": ["GPS 41mm", "GPS 45mm", "GPS + Cellular 41mm", "GPS + Cellular 45mm"],
+        "colors": ["Alumínio Meia-noite", "Alumínio Estelar", "Alumínio Verde", "Alumínio Azul", "Alumínio PRODUCT(RED)", "Aço Inoxidável", "Titânio"]
+      }
+    ]
+  },
+  {
+    "category": "Watch",
+    "year": 2022,
+    "items": [
+      {
+        "name": "Apple Watch Series 8",
+        "storages": ["GPS 41mm", "GPS 45mm", "GPS + Cellular 41mm", "GPS + Cellular 45mm"],
+        "colors": ["Alumínio Meia-noite", "Alumínio Estelar", "Alumínio Prateado", "Alumínio PRODUCT(RED)", "Aço Inoxidável"]
+      },
+      {
+        "name": "Apple Watch Ultra",
+        "storages": ["GPS + Cellular 49mm"],
+        "colors": ["Titânio"]
+      },
+      {
+        "name": "Apple Watch SE (2ª geração)",
+        "storages": ["GPS 40mm", "GPS 44mm", "GPS + Cellular 40mm", "GPS + Cellular 44mm"],
+        "colors": ["Alumínio Meia-noite", "Alumínio Estelar", "Alumínio Prateado"]
+      }
+    ]
+  },
+  {
+    "category": "Watch",
+    "year": 2023,
+    "items": [
+      {
+        "name": "Apple Watch Series 9",
+        "storages": ["GPS 41mm", "GPS 45mm", "GPS + Cellular 41mm", "GPS + Cellular 45mm"],
+        "colors": ["Alumínio Meia-noite", "Alumínio Estelar", "Alumínio Prateado", "Alumínio Rosa", "Alumínio PRODUCT(RED)", "Aço Inoxidável"]
+      },
+      {
+        "name": "Apple Watch Ultra 2",
+        "storages": ["GPS + Cellular 49mm"],
+        "colors": ["Titânio Natural"]
+      }
+    ]
+  },
+  {
+    "category": "Watch",
+    "year": 2024,
+    "items": [
+      {
+        "name": "Apple Watch Series 10",
+        "storages": ["GPS 42mm", "GPS 46mm", "GPS + Cellular 42mm", "GPS + Cellular 46mm"],
+        "colors": ["Alumínio Ônix Jet", "Alumínio Ouro Rosa", "Alumínio Prateado", "Titânio Natural", "Titânio Dourado", "Titânio Slate"]
+      }
+    ]
+  },
+  {
+    "category": "Mac",
+    "year": 2020,
+    "items": [
+      {
+        "name": "MacBook Air M1",
+        "storages": ["256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Prateado", "Cinza Espacial", "Dourado"]
+      },
+      {
+        "name": "MacBook Pro 13\" M1",
+        "storages": ["256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Prateado", "Cinza Espacial"]
+      }
+    ]
+  },
+  {
+    "category": "Mac",
+    "year": 2021,
+    "items": [
+      {
+        "name": "MacBook Pro 14\" M1 Pro/Max",
+        "storages": ["512GB", "1TB", "2TB", "4TB", "8TB"],
+        "colors": ["Prateado", "Cinza Espacial"]
+      },
+      {
+        "name": "MacBook Pro 16\" M1 Pro/Max",
+        "storages": ["512GB", "1TB", "2TB", "4TB", "8TB"],
+        "colors": ["Prateado", "Cinza Espacial"]
+      },
+      {
+        "name": "iMac 24\" M1",
+        "storages": ["256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Verde", "Amarelo", "Laranja", "Rosa", "Roxo", "Azul", "Prateado"]
+      }
+    ]
+  },
+  {
+    "category": "Mac",
+    "year": 2022,
+    "items": [
+      {
+        "name": "MacBook Air M2",
+        "storages": ["256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Meia-noite", "Estelar", "Cinza Espacial", "Prateado"]
+      },
+      {
+        "name": "MacBook Pro 13\" M2",
+        "storages": ["256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Prateado", "Cinza Espacial"]
+      }
+    ]
+  },
+  {
+    "category": "Mac",
+    "year": 2023,
+    "items": [
+      {
+        "name": "MacBook Pro 14\" M3/M3 Pro/M3 Max",
+        "storages": ["512GB", "1TB", "2TB", "4TB", "8TB"],
+        "colors": ["Prateado", "Cinza Espacial"]
+      },
+      {
+        "name": "MacBook Pro 16\" M3 Pro/M3 Max",
+        "storages": ["512GB", "1TB", "2TB", "4TB", "8TB"],
+        "colors": ["Prateado", "Cinza Espacial"]
+      },
+      {
+        "name": "MacBook Air 15\" M2",
+        "storages": ["256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Meia-noite", "Estelar", "Cinza Espacial", "Prateado"]
+      },
+      {
+        "name": "iMac 24\" M3",
+        "storages": ["256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Verde", "Amarelo", "Laranja", "Rosa", "Roxo", "Azul", "Prateado"]
+      }
+    ]
+  },
+  {
+    "category": "Mac",
+    "year": 2024,
+    "items": [
+      {
+        "name": "MacBook Air 13\" M3",
+        "storages": ["256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Meia-noite", "Estelar", "Cinza Espacial", "Prateado"]
+      },
+      {
+        "name": "MacBook Air 15\" M3",
+        "storages": ["256GB", "512GB", "1TB", "2TB"],
+        "colors": ["Meia-noite", "Estelar", "Cinza Espacial", "Prateado"]
+      },
+      {
+        "name": "MacBook Pro 14\" M4/M4 Pro/M4 Max",
+        "storages": ["512GB", "1TB", "2TB", "4TB", "8TB"],
+        "colors": ["Prateado", "Cinza Espacial"]
+      },
+      {
+        "name": "MacBook Pro 16\" M4 Pro/M4 Max",
+        "storages": ["512GB", "1TB", "2TB", "4TB", "8TB"],
+        "colors": ["Prateado", "Cinza Espacial"]
+      }
+    ]
+  }
+]
