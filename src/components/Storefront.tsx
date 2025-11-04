@@ -41,9 +41,9 @@ export default function Storefront({ shop, products }: StorefrontProps) {
 
   // Get unique values for filters
   const categories = Array.from(new Set(products.map(p => p.category)))
-  const storages = Array.from(new Set(products.map(p => p.storage).filter(Boolean)))
-  const colors = Array.from(new Set(products.map(p => p.color).filter(Boolean)))
-  const conditions = Array.from(new Set(products.map(p => p.condition).filter(Boolean)))
+  const storages = Array.from(new Set(products.map(p => p.storage).filter(Boolean))) as string[]
+  const colors = Array.from(new Set(products.map(p => p.color).filter(Boolean))) as string[]
+  const conditions = Array.from(new Set(products.map(p => p.condition).filter(Boolean))) as string[]
 
   // Filter products
   const filteredProducts = useMemo(() => {

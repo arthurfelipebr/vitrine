@@ -40,7 +40,7 @@ export default function CatalogSelector() {
         setCatalog(data)
 
         // Get unique categories
-        const cats = Array.from(new Set(data.map((c: CatalogCategory) => c.category)))
+        const cats = Array.from(new Set(data.map((c: CatalogCategory) => c.category))) as string[]
         setAvailableCategories(cats)
       } catch (error) {
         console.error('Erro ao carregar catálogo:', error)

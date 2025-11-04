@@ -251,7 +251,7 @@ export default function ProductForm({ product }: ProductFormProps) {
             onChange={(e) => handleChange('paymentLink', e.target.value)}
           />
           <p className="mt-1 text-xs text-gray-500">
-            Se não preencher, a vitrine exibe "Falar no WhatsApp"
+            Se não preencher, a vitrine exibe &quot;Falar no WhatsApp&quot;
           </p>
         </div>
 
@@ -289,7 +289,7 @@ export default function ProductForm({ product }: ProductFormProps) {
 
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
           <p className="text-sm text-blue-800">
-            💡 Use "Duplicar" na lista para criar variações de cor/armazenamento.
+            💡 Use &quot;Duplicar&quot; na lista para criar variações de cor/armazenamento.
           </p>
         </div>
 
